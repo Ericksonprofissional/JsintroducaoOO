@@ -22,3 +22,18 @@ Encapsulamento
 Proposta de atributos privados
 
 return e early return
+
+aula3
+O que aprendemos nessa aula:
+
+package.json
+
+Modules
+
+import/export
+
+Quais as vantagens de ter um código onde usamos classes e composição ao invés de tipos primitivos
+
+Tipos de valor é tipos de referencias 
+
+Alterando dinamicamente um objeto
