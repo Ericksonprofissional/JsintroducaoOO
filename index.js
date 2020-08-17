@@ -7,7 +7,7 @@ class Cliente {                // criando class
 }
 
 const cliente1 = new Cliente(); //instanciando objeto
-const cliente2 = new Cliente();
+const cliente2 = new Cliente(); // operador new
 
 
 
