@@ -1,10 +1,11 @@
 import { Cliente } from "./Cliente.js";
 
 export class ContaCorrente{
+    static nContas =0;
     agencia;
     //Atributos privados
-    _cliente;
     _saldo = 0;
+    _cliente;
 
     /**
      * @param {any} novoValor
@@ -23,6 +24,13 @@ export class ContaCorrente{
 
     get saldo(){
         return this._saldo;
+    }
+
+
+    constructor(agencia, cliente){
+        this.agencia =agencia;
+        this.cliente =cliente;
+        ContaCorrente.nContas +=1;
     }
 
     sacar(vlrSacado){
